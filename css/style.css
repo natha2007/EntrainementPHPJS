@@ -1,0 +1,54 @@
+header ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    
+    /* Equally spaced element in the nav bar */
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /* aligned elements in the page header navigation bar */
+    height: 100%;
+    align-items: center;
+
+    /* For the ul to correctly fit in the header */
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-header {
+    width: 80%;
+    height: 100%;
+    /* Border to be rounded */
+    border-radius: 25px;
+    
+    background-color: rgb(9, 9, 55);
+}
+
+header ul li {
+    color: rgb(145, 140, 140);
+}
+
+header ul li:hover{
+    color:white;
+}
+
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
