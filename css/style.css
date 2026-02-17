@@ -19,11 +19,13 @@ header ul {
 header {
     width: 100vw;
     height: 10vh;
-    margin-top: 1rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position:sticky;
+    top: 3rem;
 }
 
 .centered-header {
@@ -31,24 +33,68 @@ header {
     height: 100%;
     /* Border to be rounded */
     border-radius: 25px;
+
     
     background-color: rgb(9, 9, 55);
 }
 
 header ul li {
-    color: rgb(145, 140, 140);
+    color: rgb(214, 209, 209);
 }
 
 header ul li:hover{
     color:white;
 }
 
+.pageBody {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    
+}
+
+.second_part {
+    height: 30rem;
+    border:1px solid green;
+}
+
+.third_part {
+    height: 40rem;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third_rect {
+    border-radius: 10px;
+    background-color: rgb(0, 140, 255);
+    box-shadow:10px 5px 5px rgb(106, 0, 255);
+    height: 25rem;
+    width: 25vw;
+}
+
+.under_text {
+    overflow: hidden;
+    width: 25vw;
+    height: 10rem;
+    text-align: center;
+    border: 1px solid;
+}
 
 
+footer{
+    height: 10vh;
+}
 
 body {
     margin:0;
     padding:0;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    
+    background-size:100vw 100vh;
 }
